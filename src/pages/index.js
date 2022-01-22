@@ -1,5 +1,7 @@
+import Layout from "../components/Layout"
+
 function Index() {
-    return <h1>Tiktok</h1>
+    return <Layout>Tiktok</Layout>
 }
 
 export default Index
