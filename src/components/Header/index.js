@@ -1,21 +1,21 @@
-import Container from "./styles"
+import {Container, Content, LogoContainer, LogoIcon, OptionsContainer, Logo, Avatar, Icon} from "./styles"
 
 function Header () {
     return(
         <Container>
             <Content>
                 <LogoContainer>
-                    <LogoIcon src="/images/asasasdadas">
+                    <LogoIcon src="/images/logoIcon.svg">
 
                     </LogoIcon>
-                    <Logo src="/images/asfasdasdasd">
+                    <Logo src="/images/logo.svg">
 
                     </Logo>
                 </LogoContainer>
                 <OptionsContainer>
-                    <Icon></Icon>
+                    <Icon src="/images/uploadIcon.svg"></Icon>
                     <Avatar>
-                        <img src="/images/asasasasass" />
+                        <img src="https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/1683370820454401.jpeg?x-expires=1642946400&x-signature=C1hxRIO9rEN8JbNO75YNaTTllKk%3D" />
                     </Avatar>
                 </OptionsContainer>
             </Content>
