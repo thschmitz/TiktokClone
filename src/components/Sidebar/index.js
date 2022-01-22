@@ -19,7 +19,7 @@ function Sidebar () {
             <User user={{name:"Will Smith", username:"willsmith", avatar: "https://p16-amd-va.tiktokcdn.com/img/musically-maliva-obj/1646315618666501~c5_100x100.jpeg"}}></User>
         </Following>
         <InfoContainer>
-            <Links>
+            <Links margin>
                 <a>Inicio</a>
                 <a>Sobre</a>
                 <a>Carreira</a>
@@ -34,10 +34,10 @@ function Sidebar () {
                 <a>Diretrizes da comunidade</a>
                 <a>Termos</a>
             </Links>
-            <Links>
+            <Links margin>
                 <a>Privacidade</a>        
             </Links>
-            <Links>
+            <Links margin>
                 <a>2020 TikTok</a>
             </Links>
         </InfoContainer>
