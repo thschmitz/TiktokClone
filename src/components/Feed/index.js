@@ -1,3 +1,6 @@
+import {Container} from "./styles"
+import PostCard from "../PostCard"
+
 function Feed ({posts}) {
     return(
         <Container>
@@ -7,5 +10,7 @@ function Feed ({posts}) {
         </Container>
     )
 }
+
+
 
 export default Feed
